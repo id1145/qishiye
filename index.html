@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ch-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <!-- 引入js文件 -->
+    <script type="text/javascript" src="./js.js"></script>
+
+    <title>新建起始页</title>
+  </head>
+  <body>
+    <div class="abox">
+      <!-- 菜单设置栏盒子 -->
+
+      <div class="caidan" onclick="caidanlan()">
+        <!-- 菜单 -->
+        <div class="heng"></div>
+        <div class="heng"></div>
+        <div class="heng"></div>
+      </div>
+
+      <div class="sz" id="shezhilan" onclick="shezhi()">
+        <!-- 设置 -->
+        <img src="./设置.png" alt="" class="png" />
+        <div class="cai2" id="shezhi1">
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+          <div>not found</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sskbox" onclick="abox()">
+      <!-- 搜索框 -->
+      <form target="_blank" method="get" action="https://cn.bing.com/?p=">
+        <input
+          type="search"
+          name="search"
+          placeholder="请输入..."
+          class="ssk"
+          onclick="biankuang()"
+        />
+      </form>
+
+      <div class="full">
+        <div class="this">点击进行搜索</div>
+        <a href="">
+          <img src="./搜索.png" alt="" class="png1" />
+        </a>
+      </div>
+    </div>
+
+    <div class="abox">
+      <!-- 菜单栏,盒子栏 -->
+      <div class="cai1" id="cai3">
+        <div>点击想去的地方</div>
+        <br />
+        <div>
+          <img src="https://baidu.com/favicon.ico" alt="" class="png2" />
+          <a href="https://baidu.com/">百度</a>
+        </div>
+        <div>
+          <img src="https://bing.com/favicon.ico" alt="" class="png2" />
+          <a href="https://bing.com/">bing</a>
+        </div>
+
+        <div>
+          <img src="https://sogou.com/favicon.ico" alt="" class="png2" />
+          <a href="https://sogou.com/">搜狗</a>
+        </div>
+
+        <div>
+          <img src="https://so.com/favicon.ico" alt="" class="png2" />
+          <a href="https://so.com/">360(广告多)</a>
+        </div>
+
+        <div>
+          <img src="https://bilibili.com/favicon.ico" alt="" class="png2" />
+          <a href="https://bilibili.com/">bilibili</a>
+        </div>
+
+        <div>
+          <img
+            src="https://cdn.icon-icons.com/icons2/729/PNG/512/google_icon-icons.com_62736.png"
+            alt=""
+            class="png2"
+          />
+          <a href="https://Google.com">Google(摆设)</a>
+        </div>
+
+        <div>
+          <img src="https://GitHub.com/favicon.ico" alt="" class="png2" />
+          <a href="https://GitHub.com/">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

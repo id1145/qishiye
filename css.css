@@ -1,0 +1,115 @@
+body {
+  /* 这个不用多说 */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-image: url(./jpg.jpg);
+  background-size: cover;
+  flex-flow: wrap;
+}
+.sskbox {
+  /* 搜索框盒子 */
+  width: 61vw;
+  position: absolute;
+  margin-top: 15vh;
+  height: 7vh;
+  border-radius: 100vh;
+  z-index: 1;
+  display: flex;
+}
+.ssk {
+  /* 搜索框 */
+  background-color: rgb(255, 255, 255);
+  border: 3px solid white;
+  border-radius: 100vh;
+  height: 7vh;
+  font-size: 4vh;
+  width: 50vw;
+  outline-style: none;
+  padding: 3vh;
+}
+.abox {
+  /* 菜单栏大盒子 */
+  width: 100vw;
+  display: flex;
+  padding: 7vh;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* 菜单栏小盒子 */
+.caidan {
+  width: 7vh;
+  height: 7vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.heng {
+  width: 5vh;
+  background-color: aliceblue;
+  height: 0.5vh;
+  /* 横 */
+}
+.png {
+  /* 图片 */
+  height: 50px;
+}
+.png1 {
+  height: 7vh;
+  margin-left: 20px;
+}
+.png2 {
+  height: 15px;
+  margin-right: 5px;
+}
+.this {
+  position: absolute;
+  display: none;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 1;
+  transform: translate(0, -40px);
+}
+.full:hover .this {
+  display: block;
+}
+/* 设置栏 */
+.cai1 {
+  margin-top: -44vh;
+  background-color: rgba(255, 255, 255, 0.548);
+  width: 15vw;
+  height: 30vh;
+  border-radius: 10px;
+  flex-flow: wrap;
+  padding: 2vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  z-index: 2;
+  position: absolute;
+}
+/* 设置栏 */
+.cai2 {
+  background-color: rgb(255, 255, 255);
+  width: 15vw;
+  height: 30vh;
+  border-radius: 10px;
+  flex-flow: wrap;
+  padding: 2vh;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 4;
+  margin-top: 2vh;
+  position: absolute;
+  display: none;
+  transform: translate(-100px, 0);
+}
